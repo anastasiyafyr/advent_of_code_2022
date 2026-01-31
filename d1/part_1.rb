@@ -1,3 +1,6 @@
+# --- Day 1: Calorie Counting ---
+# Part One
+
 input_path = File.join(__dir__, 'input.txt')
 groups = File.read(input_path).split("\n\n")
 
