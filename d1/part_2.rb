@@ -6,6 +6,6 @@ calories_per_elf = groups.map do |group|
   numbers.sum
 end
 
-max_calories = calories_per_elf.max
+top_three_elves_calories = calories_per_elf.sort.reverse.take(3)
 
-puts max_calories
+puts top_three_elves_calories.sum
